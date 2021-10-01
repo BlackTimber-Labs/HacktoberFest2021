@@ -1,72 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/home.css">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
+<html>
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BlackTimber Labs HacktoberFest 2021</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 
 </head>
-<body>
-    <header class="header">
-       <p>Insert Image here</p>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="index.html">HacktoberFest 2021</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contributors.html">Contributors</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center masthead"><img src="assets/img/hacktober.png">
     </header>
-    
-    <div class="container">
-    <h2 class="text-uppercase text-center text-secondary">Contributors</h2>
-    <hr class="star-dark mb-5">
-    <div class="row">
-        <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-1" data-bs-toggle="modal">
-                <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                    <div class="text-center text-white my-auto portfolio-item-caption-content w-100"></div>
-                </div><img class="img-fluid" src="assets/img/profile.png">
-            </a>
-            <h2>Name</h2>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center"><span>Contributors</span></h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-bs-toggle="modal">
+                        <img class="img-fluid" src="assets/img/portfolio/profile.png"><br><br>
+                        <h4>Demo Profile</h4>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-bs-toggle="modal">
+                    <img class="img-fluid" src="assets/img/portfolio/profile.png"><br><br>
+                    <h4>Demo Profile</h4>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-bs-toggle="modal">
+                    <img class="img-fluid" src="assets/img/portfolio/profile.png"><br><br>
+                    <h4>Demo Profile</h4>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-bs-toggle="modal">
+                    <img class="img-fluid" src="assets/img/portfolio/profile.png"><br><br>
+                    <h4>Demo Profile</h4>
+                </a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-2" data-bs-toggle="modal">
-                <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                    <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
-                </div><img class="img-fluid" src="assets/img/">
-            </a>
-            <h2>Name</h2>
-        </div>
-        <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-3" data-bs-toggle="modal">
-                <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                    <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
-                </div><img class="img-fluid" src="assets/img/">
-            </a></div>
-        <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4" data-bs-toggle="modal">
-                <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                    <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
-                </div><img class="img-fluid" src="assets/img/">
-            </a></div>
-        <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5" data-bs-toggle="modal">
-                <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                    <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
-                </div><img class="img-fluid" src="assets/img/">
-            </a></div>
-        <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-6" data-bs-toggle="modal">
-                <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                    <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
-                </div><img class="img-fluid" src="assets/img/">
-            </a></div>
+    </section>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;BlackTimber Labs 2021</small></div>
     </div>
-</div>
-
-
-
-    <!-- Bootstrap Js  -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
 </body>
+
 </html>

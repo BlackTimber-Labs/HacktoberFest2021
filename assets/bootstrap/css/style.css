@@ -1,0 +1,22 @@
+body{
+    background-color: #f5f0e1;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+a{
+    color: #f74700;
+    text-decoration: none;
+}
+ a:hover{
+    color: #2b3531;
+    text-decoration: none;
+}
+p{
+    color: #2b3531;
+}
+h2{
+    color: #2b3531;    
+
+}
+h2 span{
+    color: #f74700;
+}
