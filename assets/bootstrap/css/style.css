@@ -20,3 +20,7 @@ h2{
 h2 span{
     color: #f74700;
 }
+.bg-mgreen{
+    --tw-bg-opacity : 1;
+    background-color: rgba(103,118,98,var(--tw-bg-opacity));
+}
