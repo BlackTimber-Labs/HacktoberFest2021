@@ -24,3 +24,41 @@ h2 span{
     --tw-bg-opacity : 1;
     background-color: rgba(103,118,98,var(--tw-bg-opacity));
 }
+
+/* Changes by Apurv */
+
+.contact-section{
+
+background-color: #2b3531;
+
+}
+
+.contact-section .social {
+    margin-top: 5rem;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .contact-section .social a:active {
+    color: #fff;
+  }
+  
+  .r1{
+    color: white;
+    text-align: center;
+  }
+
+  #r2{
+
+    color: black;
+    
+  }
