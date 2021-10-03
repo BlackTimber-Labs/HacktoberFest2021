@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    
+</head>
+<style>
+    body{
+    background-color: snow;
+}
+p{
+    top: 60px;
+    color: whitesmoke;
+    position: relative;
+    font-size: 4rem;
+    
+}
+#container{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(78, 78, 190);
+    border-radius: 20%;
+    position: relative;
+    left: 38%;
+    margin-top: 15%;
+}
+button{
+    
+    box-shadow: 2px  2px 50px 2px rgb(13, 13, 19);
+     width: 50px;
+     border: 10px solid rgb(135, 235, 160);
+     border-radius: 45px;
+      padding: 0 10px 0 10px;
+      margin: 8px;
+      font-size: large;
+      background-color: snow;
+      border: snow;
+      height: 22px;
+}
+.inc{
+    top: 20px;
+    left: 30px;
+    position: relative;
+}
+.dec{
+    top: 20px;
+    left: 30px;
+    position: relative;
+}
+.inc:active,.dec:active{
+    font-size: 15px;
+}
+</style>
+<body>
+    <div class="" id="container">
+        
+            <p id="counter"style="text-align: center; margin-top: 50px;">0</p>
+            <button class="inc" id="inc">+</button>
+            <button class="dec" id="dec">-</button>
+
+            <script src="counter.js"></script>
+        
+    </div>
+    <script >
+        const counter=document.getElementById("counter");
+const inc=document.querySelector(".inc");
+const dec=document.querySelector(".dec");
+let count=0;
+ 
+inc.addEventListener('click',function(){
+    count++;
+    counter.innerHTML=count;
+});
+
+dec.addEventListener('click',function(){
+    count--;
+    counter.innerHTML=count;
+});
+
+
+    </script>
+</body>
+</html>
