@@ -62,3 +62,27 @@ background-color: #2b3531;
     color: black;
     
   }
+
+/* Changes by Somesh */
+  /* Also added id named header-main-image in header image element in index.html and contributors.html*/
+
+  .img-fluid {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 1280px) {
+    #header-main-image {
+      height: 60vh;
+      width: 100vw;
+    }
+    
+  }
+
+  @media (max-width: 992px) {
+    header.masthead {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
