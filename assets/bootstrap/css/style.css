@@ -3,19 +3,24 @@ body{
     font-family: 'Noto Sans Display', sans-serif;
 }
 a{
-    color: #f74700;
-    text-decoration: none;
+  color: #fff2ed;
+  text-decoration: none;
+  FONT-SIZE: 25PX;
 }
- a:hover{
-    color: #2b3531;
-    text-decoration: none;
-}
+
 p{
     color: #2b3531;
+}
+nav ul li{
+  color: whiteimg-fluid;
 }
 h2{
     color: #2b3531;    
 
+}
+.img-fluid {
+  width: 350px;
+  height: 350px;
 }
 h2 span{
     color: #f74700;
@@ -32,6 +37,7 @@ h2 span{
 background-color: #2b3531;
 
 }
+
 
 .contact-section .social {
     margin-top: 5rem;
@@ -61,4 +67,23 @@ background-color: #2b3531;
 
     color: black;
     
+  }
+  .eff{
+    transition: 1s;
+    transition-timing-function: ease-in;
+  }
+  .eff:hover{
+    /* background-color: #f74700; */
+    /* width: 200px; */
+    transform: scale(1.1);
+    box-shadow: 5PX 5PX 5PX black ;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      /* background-color: lightblue; */
+    }
+    header img{
+      width: 100%;
+    }
   }
