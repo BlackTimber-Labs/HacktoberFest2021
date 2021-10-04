@@ -1,64 +1,115 @@
-body{
-    background-color: #f5f0e1;
-    font-family: 'Noto Sans Display', sans-serif;
+body {
+  background-color: #f5f0e1;
+  font-family: "Noto Sans Display", sans-serif;
 }
-a{
-    color: #f74700;
-    text-decoration: none;
+a {
+  color: #f74700;
+  text-decoration: none;
 }
- a:hover{
-    color: #2b3531;
-    text-decoration: none;
+a:hover {
+  color: #2b3531;
+  text-decoration: none;
 }
-p{
-    color: #2b3531;
+p {
+  color: #2b3531;
 }
-h2{
-    color: #2b3531;    
-
+h2 {
+  color: #2b3531;
 }
-h2 span{
-    color: #f74700;
+h2 span {
+  color: #f74700;
 }
-.bg-mgreen{
-    --tw-bg-opacity : 1;
-    background-color: rgba(103,118,98,var(--tw-bg-opacity));
+.bg-mgreen {
+  --tw-bg-opacity: 1;
+  background-color: rgba(103, 118, 98, var(--tw-bg-opacity));
 }
 
 /* Changes by Apurv */
 
-.contact-section{
-
-background-color: #2b3531;
-
+.contact-section {
+  background-color: #2b3531;
 }
 
 .contact-section .social {
-    margin-top: 5rem;
-  }
-  .contact-section .social a {
-    text-align: center;
-    height: 3rem;
-    width: 3rem;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 100%;
-    line-height: 3rem;
-    color: rgba(255, 255, 255, 0.3);
-  }
-  .contact-section .social a:hover {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  .contact-section .social a:active {
-    color: #fff;
-  }
-  
-  .r1{
-    color: white;
-    text-align: center;
-  }
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+  color: #fff;
+}
 
-  #r2{
+.r1 {
+  color: white;
+  text-align: center;
+}
 
-    color: black;
-    
-  }
+#r2 {
+  color: black;
+}
+
+/* change by sanam kandar */
+header {
+  height: 100vh;
+}
+.masthead {
+  padding: 0px;
+}
+header .banner {
+  height: 500px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: rgb(124, 119, 119) 20px 20px 30px;
+}
+
+.lead {
+  margin-bottom: 0;
+}
+
+.description-block {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-center li {
+  width: fit-content;
+  padding: 3px;
+  text-align: start;
+  list-style-position: inside;
+}
+p,
+li {
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  border: 1px solid gray;
+  background-color: rgb(207, 207, 207);
+}
+
+.card:hover {
+  background-color: rgb(231, 231, 231);
+  font-weight: 700;
+}
+
+.info,
+.foot {
+  font-family: "Poppins", sans-serif;
+}
+#socialMedia:hover{
+  font-size: 25px;
+  align-items: center;
+}
+/* sanam's changes end */
