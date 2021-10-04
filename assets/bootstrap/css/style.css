@@ -55,11 +55,32 @@ h2 span {
   color: #677662;
   text-align: center;
 }
+    color: black;
+    
+  }
+  .img-fluid {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
 
+  @media (max-width: 1280px) {
+    #header-main-image {
+      height: 60vh;
+      width: 100vw;
+    }
+    
+  }
+
+  @media (max-width: 992px) {
+    header.masthead {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
 #r2 {
   color: black;
 }
-/* further changes by meheer */
 .card{
   transition: 0.2s ease;
 }
