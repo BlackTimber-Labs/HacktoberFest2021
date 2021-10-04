@@ -1,64 +1,70 @@
-body{
-    background-color: #f5f0e1;
-    font-family: 'Noto Sans Display', sans-serif;
+body {
+  background-color: #f5f0e1;
+  font-family: "Noto Sans Display", sans-serif;
 }
-a{
-    color: #f74700;
-    text-decoration: none;
+a {
+  color: #f74700;
+  text-decoration: none;
 }
- a:hover{
-    color: #2b3531;
-    text-decoration: none;
+a:hover {
+  color: #2b3531;
+  text-decoration: none;
 }
-p{
-    color: #2b3531;
+p {
+  color: #2b3531;
 }
-h2{
-    color: #2b3531;    
-
+h2 {
+  color: #2b3531;
 }
-h2 span{
-    color: #f74700;
+h2 span {
+  color: #f74700;
 }
-.bg-mgreen{
-    --tw-bg-opacity : 1;
-    background-color: rgba(103,118,98,var(--tw-bg-opacity));
+.bg-mgreen {
+  --tw-bg-opacity: 1;
+  background-color: rgba(103, 118, 98, var(--tw-bg-opacity));
 }
 
 /* Changes by Apurv */
 
-.contact-section{
-
-background-color: #2b3531;
-
+.contact-section {
+  background-image: linear-gradient(to top, #677662, #8a937f, #adb19d, #d1d0be, #f5f0e1);/*added gradient -meheer*/
 }
 
 .contact-section .social {
-    margin-top: 5rem;
-  }
-  .contact-section .social a {
-    text-align: center;
-    height: 3rem;
-    width: 3rem;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 100%;
-    line-height: 3rem;
-    color: rgba(255, 255, 255, 0.3);
-  }
-  .contact-section .social a:hover {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  .contact-section .social a:active {
-    color: #fff;
-  }
-  
-  .r1{
-    color: white;
-    text-align: center;
-  }
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s ease; /*added hover effects -meheer*/
+}
+.contact-section .social a:hover {
+  color: white;
+  transition: 0.3s ease;
+  transform: scale(1.2);
+}
+.contact-section .social a:active {
+  color: #fff;
+}
+.r1 {
+  color: #677662;
+  text-align: center;
+}
 
-  #r2{
-
-    color: black;
-    
-  }
+#r2 {
+  color: black;
+}
+/* further changes by meheer */
+.card{
+  transition: 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: 0.2s ease;
+}
