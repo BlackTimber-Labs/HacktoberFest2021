@@ -1,0 +1,337 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    padding: 2%;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+h1:hover {
+    font-size: 300%;
+    transform: rotate3d(1, 1, 1, -10deg);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+hr {
+    border-top: 5px solid black;
+}
+
+/* Selected Classes */
+
+.anchor-inner {
+    margin: 0;
+    padding: 0;
+}
+
+.common-one {
+    text-align: center;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.contriProfile {
+    border-radius: 30px;
+    display: inline-block;
+    object-fit: cover;
+    padding: 5%;
+    width: 400px;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.contriProfile:hover {
+    transform: scale(1.3, 1.3);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.div-about {
+    display: flex;
+    margin: 0 0 0 50px;
+}
+
+.div-contact {
+    background-color: rgba(247, 71, 0, .1);
+    border-radius: 20px;
+    display: inline-block;
+    margin: 3%;
+    padding: 3%;
+    transition: color .2s, font-size .2s, transform 2s;
+    width: 20vw;
+}
+
+.div-contact:hover {
+    transform: scale(1.3, 1.3);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.div-contact-main {
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-details {
+    margin: 0 0 0 50px;
+}
+
+.div-main-container {
+    margin: auto;
+    width: 90vw;
+}
+
+.div-second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div-section-one {
+    background-color: rgba(247, 71, 0, .1);
+    border-radius: 20px;
+    margin: 7% 0 5% 20%;
+    padding: 3%;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.div-section-one:hover {
+    transform: scale(1.1, 1.1);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.div-section-two {
+    background-color: rgba(247, 71, 0, .1);
+    border-radius: 20px;
+    margin: 7% 20% 5% 0;
+    padding: 3%;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.div-section-two:hover {
+    transform: scale(1.1, 1.1);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.fab {
+    color: black;
+    padding: 2%;
+    text-decoration: none;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.fab:hover {
+    transform: scale(1.3, 1.3);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.fest {
+    color: #f74700;
+}
+
+.footer-div-main {
+    text-align: center;
+}
+
+.footer-logo {
+    border-radius: 100%;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.footer-logo:hover {
+    transform: scale(1.3, 1.3);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.footer-para-connect {
+    font-size: 200%;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.footer-para-connect:hover {
+    transform: scale(1.1, 1.1);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.navbar {
+    padding-bottom: 0.5rem;
+    padding-top: 0;
+}
+
+.navbar-nav {
+    font-size: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.para-main-contact {
+    font-size: 250%;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.para-main-contact:hover {
+    transform: scale(1.1, 1.1);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.para-top {
+    font-size: 150%;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.para-top-ul {
+    font-size: 110%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.profile-class {
+    display: flex;
+}
+
+.profile-image {
+    border-radius: 35px;
+    width: 600px;
+}
+
+.side-logo {
+    border-radius: 20px;
+    float: left;
+    margin-top: 1%;
+    transition: color .2s, font-size .2s, transform 2s;
+    width: 200px;
+}
+
+.side-logo:hover {
+    transform: rotate3d(1, 1, 1, -10deg);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.side-logo-2 {
+    border-radius: 20px;
+    float: right;
+    margin-top: 10%;
+    transition: color .2s, font-size .2s, transform 2s;
+    width: 200px;
+}
+
+.side-logo-2:hover {
+    transform: rotate3d(1, 1, 1, 10deg);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.side-logo-3 {
+    border-radius: 20px;
+    float: left;
+    margin-top: 6%;
+    transition: color .2s, font-size .2s, transform 2s;
+    width: 200px;
+}
+
+.side-logo-3:hover {
+    transform: rotate3d(1, 1, 1, -10deg);
+    transition: color .2s, font-size .2s, transform 2s;
+}
+
+.unorganised-list {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+
+/* Resposive */
+
+@media (max-width: 1275px) {
+    .side-logo {
+        display: none;
+    }
+
+    .side-logo-2 {
+        display: none;
+    }
+
+    .side-logo-3 {
+        display: none;
+    }
+
+    .div-section-one {
+        background-color: rgba(247, 71, 0, .1);
+        border-radius: 20px;
+        margin: 7% 0 5% 0%;
+        padding: 3%;
+        transition: color .2s, font-size .2s, transform 2s;
+    }
+
+    .div-section-two {
+        background-color: rgba(247, 71, 0, .1);
+        border-radius: 20px;
+        margin: 7% 0 5% 0%;
+        padding: 3%;
+        transition: color .2s, font-size .2s, transform 2s;
+    }
+
+    .div-contact {
+        background-color: rgba(247, 71, 0, .1);
+        border-radius: 20px;
+        margin: 3%;
+        padding: 3%;
+        transition: color .2s, font-size .2s, transform 2s;
+        width: 80vw;
+    }
+    
+    .div-contact:hover {
+        transform: scale(1.3, 1.3);
+        transition: color .2s, font-size .2s, transform 2s;
+    }
+    
+    .div-contact-main {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .para-main-contact {
+        display: none;
+    }
+
+    .footer-logo {
+        border-radius: 100%;
+        transition: color .2s, font-size .2s, transform 2s;
+        width: 80vw;
+    }
+    
+    .footer-logo:hover {
+        transform: scale(1.3, 1.3);
+        transition: color .2s, font-size .2s, transform 2s;
+    }
+
+    .profile-class {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .profile-image {
+        border-radius: 35px;
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+    .div-details {
+        margin-top: 5%;
+    }
+
+    .div-main-container {
+        margin: auto;
+        width: 90vw;
+    }
+}
