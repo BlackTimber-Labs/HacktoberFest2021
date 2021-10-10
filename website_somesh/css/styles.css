@@ -4,7 +4,7 @@ html {
 }
 
 a {
-    color: black;
+    color: #5f9ea0;
     padding: 2%;
     text-decoration: none;
 }
@@ -95,7 +95,7 @@ hr {
 }
 
 .div-section-one {
-    background-color: rgba(247, 71, 0, .1);
+    background-color: rgba(252, 71, 0, .1);
     border-radius: 20px;
     margin: 7% 0 5% 20%;
     padding: 3%;
