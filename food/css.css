@@ -1,0 +1,31 @@
+.dropdown {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+nav.navbar ul a:hover {
+  -webkit-text-fill-color: rgb(221, 221, 221);
+
+  background: #ff520d;
+  text-decoration: underline;
+  text-decoration-color: rgb(221, 221, 221);
+}
+
+.offcanvas img {
+  width: 650px;
+}
+#contact {
+  background-color: #ffd700;
+}
+#testi {
+  background-color: #ffd700;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ffd700;
+}
+
+.row .card a:hover {
+  background-color: rgb(192, 64, 4);
+  box-sizing: border-box;
+}

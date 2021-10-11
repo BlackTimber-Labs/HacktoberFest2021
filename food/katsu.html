@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- link animasi -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- icon bootstraps -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="css.css" />
+    <!-- link bootstraps5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <title>katsu mamak</title>
+  </head>
+  <body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+      
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Katsu Mamak</a>
+        <img src="logo/logo.jpeg" alt="" width="50" height="36" class="d-inline-block align-text-top" />
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home<i class="bi bi-house-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Critic and Suggest</a>
+            </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dapur Katsu Mamak
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#menu">Menu</a></li>
+            <li><a class="dropdown-item" href="#testi">Testimoni</a></li>
+          </ul>
+        </li>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  Menu Katsu
+</button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="border:2px solid rgb(233, 99, 22);">Menu Katsu</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   <img src="logo/menu.jpeg" alt="menu" style="width: 650px;">
+  </div>
+</div>
+    </ul>
+     
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="logo/logo.jpeg" alt="Katsu Mamak" width="250" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Katsu Mamak</h1>
+      <hr />
+      <p class="lead">Chicken Mamak | Various Chili Sauce</p>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,32L60,32C120,32,240,32,360,53.3C480,75,600,117,720,128C840,139,960,117,1080,117.3C1200,117,1320,139,1380,149.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col align-text-top">
+            <h2>About Katsu Mamak</h2>
+          </div>
+        </div>
+        
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Chicken Katsu Mamak adalah sebuah masakan ayam sambal sederhana dengan cita rasa yang nikmat,</p>
+          </div>
+          <div class="col-md-4">
+            <p>Katsu Mamak memiliki bumbu yang diambil dari rempah-rempah khas jadi dijamin memiliki cita rasa khas dan pastinya aman untuk komsumsi</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffd700"
+          fill-opacity="1"
+          d="M0,96L48,80C96,64,192,32,288,64C384,96,480,192,576,218.7C672,245,768,203,864,197.3C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir about -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 style="padding: 3rem;">Critic and Suggest</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Menu Katsu</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Kritik & Saran</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L21.8,202.7C43.6,213,87,235,131,229.3C174.5,224,218,192,262,154.7C305.5,117,349,75,393,53.3C436.4,32,480,32,524,58.7C567.3,85,611,139,655,181.3C698.2,224,742,256,785,261.3C829.1,267,873,245,916,218.7C960,192,1004,160,1047,144C1090.9,128,1135,128,1178,149.3C1221.8,171,1265,213,1309,245.3C1352.7,277,1396,299,1418,309.3L1440,320L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+    </section>
+    <!-- akhir contact -->
+   
+    <!-- menu -->
+<section id="menu">
+       <div class="container">
+           <div class="row text-center mb-4">
+               <div class="col">
+                   <h2 style="padding: 3rem;">Dapur Mamak</h2>
+               </div>
+           </div>
+           <div class="row"> 
+                <div class="row justify-content-center">
+               <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="logo/makan4.jpg" class="card-img-top" alt="makan4">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Chicken Katsu Sambal Matah/Bawang</b></h5><hr>
+                      <p class="card-text"> Menu Mamak Chicken Sambal Matah dengan harga yang bersahabat siap diantar Mamak sampai rumah dijamin puas
+                      </p>
+                      <a href="coba.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+               </div>
+               
+                <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="logo/makan3.jpeg" class="card-img-top" alt="makan3">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Ceker Mercon Mamak</b></h5><hr>
+                      <p class="card-text"> Menu Ceker Mercon dengan rasa sambal yang sangat pedas hingga lidah meledak dijamin akan ketagihan
+                      </p>
+                      <a href="coba.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="logo/makan1.jpeg" class="card-img-top" alt="makan1">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Egg Katsu Sambal Matah/Bawang</b></h5><hr>
+                      <p class="card-text"> Menu Mamak Egg Sambal Matah dengan bumbu spesial buatan mamak dijamin puas
+                      </p>
+                      <a href="coba.html" class="btn btn-primary">Buy</a>
+                    </div>
+                  </div>
+               </div>
+                  </div>
+         
+      </section>
+    <!-- akhir menu -->
+    <!-- tabel testi -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fill-opacity="1" d="M0,32L48,26.7C96,21,192,11,288,42.7C384,75,480,149,576,202.7C672,256,768,288,864,282.7C960,277,1056,235,1152,229.3C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <section id="testi">
+       <div class="container">
+           <div class="row text-center mb-4">
+               <div class="col">
+                   <h2 style="padding: 3rem;">Testimoni</h2>
+               </div>
+           </div>
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="logo/testi2.jpg" class="card-img-top" alt="testi2">
+      <div class="card-body">
+        <h5 class="card-title">Testimoni</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 4 day ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="logo/testi3.jpg" class="card-img-top" alt="testi3">
+      <div class="card-body">
+        <h5 class="card-title">Testimoni</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 1 week ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="logo/testi4.jpg" class="card-img-top" alt="testi4">
+      <div class="card-body">
+        <h5 class="card-title">Testimoni</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 2 week ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<!-- akhir testi -->
+    <!-- footer -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fill-opacity="1" d="M0,224L34.3,197.3C68.6,171,137,117,206,106.7C274.3,96,343,128,411,160C480,192,549,224,617,229.3C685.7,235,754,213,823,197.3C891.4,181,960,171,1029,192C1097.1,213,1166,267,1234,282.7C1302.9,299,1371,277,1406,266.7L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    <footer class="bg-warning text-white text-center pb-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.youtube.com/channel/UCqy_WZknWovrvjajQfvh5Cw" class="text-white fw-bold"> M.Hilmi Yusuf</a></p>
+    </footer>
+    <!-- akhir footer -->
+  </body>
+</html>

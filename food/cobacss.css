@@ -1,0 +1,63 @@
+.navbar {
+  background-color: saddlebrown;
+}
+.testi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+  margin: 20px auto 100px;
+}
+.testi .card {
+  position: top;
+  width: 350px;
+  margin: 0 auto;
+  background-color: peru;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.testi .card .layer {
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(salmon, #ffd700);
+  z-index: 1;
+  transition: 1s;
+}
+.testi .card:hover .layer {
+  top: 0;
+}
+.testi .card .content {
+  position: relative;
+  z-index: 2;
+}
+.testi .card .content p {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(67, 9, 71);
+}
+.testi .card .content img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid gray;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.testi .card .content .detail h2 {
+  font-size: 18px;
+  color: rgb(67, 9, 71);
+}
+.testi .card .content .detail h2 span {
+  color: orangered;
+  font-size: 14px;
+  transition: 1s;
+}
+.testi .card:hover .content .detail h2 span {
+  color: rgb(41, 42, 46);
+}
