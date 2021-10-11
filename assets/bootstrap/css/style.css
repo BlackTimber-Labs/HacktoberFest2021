@@ -1,9 +1,8 @@
 body {
-  background-color: #f5f0e1;
+  background-color: var(--primary-color);
   font-family: "Noto Sans Display", sans-serif;
 }
 a{
-  color: #fff2ed;
   text-decoration: none;
   FONT-SIZE: 25PX;
 }
@@ -13,14 +12,6 @@ p{
 }
 nav ul li{
   color: whiteimg-fluid;
-}
-h2{
-    color: #2b3531;    
-
-}
-.img-fluid {
-  width: 350px;
-  height: 350px;
 }
 h2 span{
     color: #f74700;
@@ -33,7 +24,16 @@ h2 span{
 /* Changes by Apurv */
 
 .contact-section {
-  background-image: linear-gradient(to top, #677662, #8a937f, #adb19d, #d1d0be, #f5f0e1);/*added gradient -meheer*/
+  background-image: linear-gradient(to top,var(--primary-color));/*added gradient -meheer*/
+ 
+}
+
+
+:root{
+ 
+  background-image: linear-gradient(to top, #677662, #8a937f, #adb19d, #d1d0be, #f5f0e1);
+
+
 }
 
 
@@ -51,19 +51,19 @@ h2 span{
   transition: 0.3s ease; /*added hover effects -meheer*/
 }
 .contact-section .social a:hover {
-  color: white;
+  color: var(--secondary-color) ; 
   transition: 0.3s ease;
   transform: scale(1.2);
 }
 .contact-section .social a:active {
-  color: #fff;
+  color:  var(--secondary-color) ;
 }
 .r1 {
   color: #677662;
   text-align: center;
 }
 
-<<<<<<< HEAD
+<<<<
 #r2 {
   color: black;
 }
@@ -129,7 +129,6 @@ h2 span{
     right: 0px;
     bottom: -13px;
 }
-=======
   .img-fluid {
     width: 100%;
     height: 400px;
@@ -162,4 +161,60 @@ h2 span{
       width: 100%;
     }
   }
->>>>>>> upstream/main
+#r2 {
+  color: black;
+}
+.card{
+  transition: 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: 0.2s ease;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+#icon{
+
+  width: 30px;
+  cursor: pointer;
+
+}
+
+
+
+.dark-theme{
+
+  --primary-color: #000000;
+--secondary-color: #fff9f9;
+
+}
+
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
