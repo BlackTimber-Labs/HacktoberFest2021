@@ -25,12 +25,12 @@ h2 span{
 
 .contact-section {
   background-image: linear-gradient(to top,var(--primary-color));/*added gradient -meheer*/
- 
+
 }
 
 
 :root{
- 
+
   background-image: linear-gradient(to top, #677662, #8a937f, #adb19d, #d1d0be, #f5f0e1);
 
 
@@ -51,7 +51,7 @@ h2 span{
   transition: 0.3s ease; /*added hover effects -meheer*/
 }
 .contact-section .social a:hover {
-  color: var(--secondary-color) ; 
+  color: var(--secondary-color) ;
   transition: 0.3s ease;
   transform: scale(1.2);
 }
@@ -96,7 +96,7 @@ h2 span{
     color: #000000;
   }
   .content {
-    
+
     margin: 20px 0 40px 20px;
 }
 
@@ -140,7 +140,7 @@ h2 span{
       height: 60vh;
       width: 100vw;
     }
-    
+
   }
   .eff{
     transition: 1s;
@@ -217,4 +217,12 @@ html{
   bottom:32px;
   pointer-events: auto;
   opacity:1;
+}
+ul {
+  display: table;
+   margin: 0 auto;
+   text-align: left;
+}
+.link-colour{
+  color: #089e74;
 }
