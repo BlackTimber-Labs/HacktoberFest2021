@@ -2,6 +2,42 @@ body {
   background-color: var(--primary-color);
   font-family: "Noto Sans Display", sans-serif;
 }
+#left{
+  width: 50px;
+  float: left;
+}
+.slider{
+  overflow:hidden;
+  height: 150px;
+  width:400px;
+  margin-left: 520px;
+  margin-top: 120px;
+}
+
+@-webkit-keyframes slide_animation{
+  0% {left:0px;}
+  50% {left:2400px;}
+  100% {left:10px;}
+}
+
+.imageSlide{
+  width: 3600px;
+  height: 800px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-play-state: running;
+}
+
+.image-container{
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
 a{
   text-decoration: none;
   FONT-SIZE: 25PX;
@@ -63,7 +99,6 @@ h2 span{
   text-align: center;
 }
 
-<<<<
 #r2 {
   color: black;
 }
