@@ -19,10 +19,23 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/img/favicon/site.webmanifest">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/0d2eb8f025.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
-<!--     
+	<a href="#" class="to-top">
+		<i class="fas fa-chevron-up"></i>
+	  </a>
+
+	  <script src="freelancer.js"></script>
+
+<!--
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-mgreen text-uppercase" id="mainNav">
         <div class="container"><a class="navbar-brand" href="#page-top">HacktoberFest 2021</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -30,30 +43,33 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="maintainers.html">Maintainers</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contributors.html">Contributors</a></li>
                 </ul>
+                <img src="assets/img/dark theme icon/moon.png" id="icon">
             </div>
         </div>
     </nav> -->
-
     <nav class="navbar navbar-expand-lg navbar-daek bg-dark fixed-top">
+
         <div class="container"><a class="navbar-" href="index.html">HacktoberFest 2021</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="" href="contributors.html">Contributors</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="contri" href="contributors.html">Contributors</a></li>
                 </ul>
             </div>
-        </div>         
+        </div>
       </nav>
-    <header class="text-center masthead">
+    <header class="top-container">
         <a href="https://hacktoberfest.digitalocean.com/" target="_blank" rel="noopener" ><img src="assets/img/hfp.png"></a>
     </header>
+  
     <section class="mb-0" id="about">
         <div class="container">
             <h2 class="text-uppercase text-center">Hacktober<span>Fest</span> 2021</h2>
             <hr class="star-light mb-5">
             <div class="row">
                 <div class="text-center">
-                    <p class="lead">Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.<br><br></p>
+                    <p class="lead"><b>Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.</b></p>
                     <p>
+                      <h6>This is how you can take part in HacktoberFest 2021</h6>
                         <ul>
                             <li>Prepare and share your project for collaboration</li>
                             <li>Contribute to the betterment of a project via pull request</li>
@@ -61,22 +77,26 @@
                             <li>Mentor others</li>
                             <li>Donate directly to open source projects</li>
                         </ul>
-                        <p>For more rules and information regarding this event checkout their official website <a href="http://hacktoberfest.digitalocean.com/">Hacktober Fest 2021</a></p>
+                        <p>For more rules and information regarding this event checkout their official website <a class="link-colour" href="http://hacktoberfest.digitalocean.com/">Hacktober Fest 2021</a></p>
                     </p>
                     <p class = "lead">
                         This website has been created to document the developers who contributed to the repositories of BlackTimber Labs as a part of HacktoberFest '21.<br>
-                        Checkout the <a href = "https://blacktimber-labs.github.io/HacktoberFest2021/contributors.html">Contributors</a> page to take a look at the profiles of the contributors!
-                        </p>    
+                        Checkout the <a class="link-colour" href = "https://blacktimber-labs.github.io/HacktoberFest2021/contributors.html">Contributors</a> page to take a look at the profiles of the contributors!
+                        </p>
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    
-<!--Contact Us Section-------->  
-  
+
+
+
+
+
+<!--Contact Us Section-------->
+
   <section class="contact-section">
-      <h2 class="r1 my-1" align = "center">Contact Us</h2>
+      <h2 class="contact" align = "center">Contact Us </h2>
       <br>
       <br>
     <div class="container px-4 px-lg-5">
@@ -87,7 +107,7 @@
                         <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                         <h4 class="text-uppercase text-black m-0">Address</h4>
                         <hr class="my-4 mx-auto" />
-                        <div class="small text-black">MANIPAL UNIVERSITY JAIPUR, Rajasthan</div>
+                        <div class="text-black">MANIPAL UNIVERSITY JAIPUR, Rajasthan</div>
                     </div>
                 </div>
             </div>
@@ -97,7 +117,7 @@
                         <i class="fas fa-envelope text-primary mb-2"></i>
                         <h4 class="text-uppercase text-black m-0">Email</h4>
                         <hr class="my-4 mx-auto" />
-                        <div id="r2" class="small text-black"><a href="#">lead@blacktimberlabs.xyz</a></div>
+                        <div id="r2" class="text-black"><a href="#">lead@blacktimberlabs.xyz</a></div>
                     </div>
                 </div>
             </div>
@@ -107,14 +127,16 @@
                         <i class="fas fa-mobile-alt text-primary mb-2"></i>
                         <h4 class="text-uppercase text-black m-0">Phone</h4>
                         <hr class="my-4 mx-auto" />
-                        <div class="small text-black">+91 996897623</div>
+                        <div class="text-black">+91996897623</div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="social d-flex justify-content-center pb-5">
-            <a class="mx-2" href="https://discord.gg/up4JGVbZ8G" target="_blank" rel="noopener" ><i class="fab fa-discord"></i></a>
-            <a class="mx-2" href="https://github.com/BlackTimber-Labs" target="_blank" rel="noopener" ><i class="fab fa-github"></i></a>
+            <a class="mx-2" href="https://www.instagram.com/hacktoberfest/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a class="mx-2" href="https://discord.com/invite/hacktoberfest"><i class="fab fa-discord"></i></a>
+            <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+            <a class="mx-2" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fhacktoberfest.digitalocean.com"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>
 </section>
@@ -128,6 +150,28 @@
     <script src="assets/js/freelancer.js"></script>
     <!-- JavaScript -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+
+var icon = document.getElementById("icon");
+
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+
+  icon.src = "assets/img/dark theme icon/sun.png";
+
+    }
+
+    else{
+
+        icon.src="assets/img/dark theme icon/moon.png";
+    }
+}
+
+
+    </script>
+
 </body>
 
 </html>
