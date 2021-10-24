@@ -9,6 +9,7 @@ a{
 
 p{
     color: #2b3531;
+    
 }
 nav ul li{
   color: whiteimg-fluid;
@@ -63,7 +64,7 @@ h2 span{
   text-align: center;
 }
 
-<<<<
+
 #r2 {
   color: black;
 }
@@ -226,3 +227,47 @@ ul {
 .link-colour{
   color: #089e74;
 }
+/*changes my mahi jain*/
+.top-container {
+padding-left: 31px;
+padding-top: 160px;
+padding-bottom: 140px;
+}
+
+.navbar-{
+  padding-left: 0%;
+  color:#f74700;
+  ;
+}
+
+.contri{
+  padding-left:920px;
+  color: #677662;
+}
+
+.navbar-:hover{
+  color:#677662;
+  
+  
+}
+
+.contri:hover{
+  color:#f74700;
+  
+}
+
+.lead{
+  padding-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact-section{
+  padding-top: 50px;
+  
+}
+
+.contact{
+  color: black;
+}
+/*changes by mahi jain*?
