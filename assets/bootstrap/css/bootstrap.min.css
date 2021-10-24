@@ -290,7 +290,9 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  width: 98.75vw;
 }
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
