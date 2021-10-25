@@ -40,17 +40,17 @@ body {
 }
 a{
   text-decoration: none;
-  FONT-SIZE: 25PX;
+  font-size: 25px;
 }
 
-p{
-    color: #2b3531;
+p {
+  color: #2b3531;
 }
-nav ul li{
+nav ul li {
   color: whiteimg-fluid;
 }
-h2 span{
-    color: #f74700;
+h2 span {
+  color: #f74700;
 }
 .bg-mgreen {
   --tw-bg-opacity: 1;
@@ -60,18 +60,22 @@ h2 span{
 /* Changes by Apurv */
 
 .contact-section {
-  background-image: linear-gradient(to top,var(--primary-color));/*added gradient -meheer*/
-
+  background-image: linear-gradient(
+    to top,
+    var(--primary-color)
+  ); /*added gradient -meheer*/
 }
 
-
-:root{
-
-  background-image: linear-gradient(to top, #677662, #8a937f, #adb19d, #d1d0be, #f5f0e1);
-
-
+:root {
+  background-image: linear-gradient(
+    to top,
+    #677662,
+    #8a937f,
+    #adb19d,
+    #d1d0be,
+    #f5f0e1
+  );
 }
-
 
 .contact-section .social {
   margin-top: 5rem;
@@ -87,12 +91,12 @@ h2 span{
   transition: 0.3s ease; /*added hover effects -meheer*/
 }
 .contact-section .social a:hover {
-  color: var(--secondary-color) ;
+  color: var(--secondary-color);
   transition: 0.3s ease;
   transform: scale(1.2);
 }
 .contact-section .social a:active {
-  color:  var(--secondary-color) ;
+  color: var(--secondary-color);
 }
 .r1 {
   color: #677662;
@@ -103,7 +107,7 @@ h2 span{
   color: black;
 }
 /* further changes by meheer */
-.card{
+.card {
   transition: 0.2s ease;
 }
 .card:hover {
@@ -112,10 +116,10 @@ h2 span{
   transition: 0.2s ease;
 }
 
-
 /* further changes by Abhigyan */
 #authors img {
-  margin-top: -50px; }
+  margin-top: -50px;
+}
 #authors .card:hover {
   --tw-bg-opacity: 1;
   background: rgba(103, 118, 98, var(--tw-bg-opacity));
@@ -123,83 +127,82 @@ h2 span{
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
   transition: 0.2s ease;
- }
+}
 #authors .fab {
-  color: #fff; }
+  color: #fff;
+}
 
-  #authors h1{
-    color: #000000;
-  }
-  .content {
-
-    margin: 20px 0 40px 20px;
+#authors h1 {
+  color: #000000;
+}
+.content {
+  margin: 20px 0 40px 20px;
 }
 
 .text-quotes blockquote {
-    position: relative;
-    margin: 0;
-    padding: 8px 0 22px 0;
-    text-indent: 36px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: bold;
-    color: #999;
+  position: relative;
+  margin: 0;
+  padding: 8px 0 22px 0;
+  text-indent: 36px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #999;
 }
 .text-quotes blockquote:before,
 .text-quotes blockquote:after {
-    position: absolute;
-    font-family: "Times New Roman", serif;
-    font-size: 60px;
-    line-height: 26px;
-    color: #7ad;
+  position: absolute;
+  font-family: "Times New Roman", serif;
+  font-size: 60px;
+  line-height: 26px;
+  color: #7ad;
 }
 .text-quotes blockquote:before {
-    content: '\201C';   /* Left double quote */
-    left: -36px;
-    top: 8px;
+  content: "\201C"; /* Left double quote */
+  left: -36px;
+  top: 8px;
 }
 .text-quotes blockquote:after {
-    content: '\201D';   /* Right double quote */
-    right: 0px;
-    bottom: -13px;
+  content: "\201D"; /* Right double quote */
+  right: 0px;
+  bottom: -13px;
 }
-  .img-fluid {
+.img-fluid {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 1280px) {
+  #header-main-image {
+    height: 60vh;
+    width: 100vw;
+  }
+}
+.eff {
+  transition: 1s;
+  transition-timing-function: ease-in;
+}
+.eff:hover {
+  /* background-color: #f74700; */
+  /* width: 200px; */
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    /* background-color: lightblue; */
+  }
+  header img {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
   }
-
-  @media (max-width: 1280px) {
-    #header-main-image {
-      height: 60vh;
-      width: 100vw;
-    }
-
-  }
-  .eff{
-    transition: 1s;
-    transition-timing-function: ease-in;
-  }
-  .eff:hover{
-    /* background-color: #f74700; */
-    /* width: 200px; */
-    transform: scale(1.1);
-    box-shadow: 5PX 5PX 5PX black ;
-  }
-
-  @media only screen and (max-width: 600px) {
-    body {
-      /* background-color: lightblue; */
-    }
-    header img{
-      width: 100%;
-    }
-  }
+}
 #r2 {
   color: black;
 }
-.card{
+.card {
   transition: 0.2s ease;
 }
 .card:hover {
@@ -208,56 +211,86 @@ h2 span{
   transition: 0.2s ease;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-
-#icon{
-
+#icon {
   width: 30px;
   cursor: pointer;
-
 }
 
-
-
-.dark-theme{
-
+.dark-theme {
   --primary-color: #000000;
---secondary-color: #fff9f9;
-
+  --secondary-color: #fff9f9;
 }
 
 .to-top {
   background: white;
   position: fixed;
   bottom: 16px;
-  right:32px;
-  width:50px;
-  height:50px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size:32px;
-  color:#1f1f1f;
+  font-size: 32px;
+  color: #1f1f1f;
   text-decoration: none;
-  opacity:0;
+  opacity: 0;
   pointer-events: none;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .to-top.active {
-  bottom:32px;
+  bottom: 32px;
   pointer-events: auto;
-  opacity:1;
+  opacity: 1;
 }
 ul {
   display: table;
-   margin: 0 auto;
-   text-align: left;
+  margin: 0 auto;
+  text-align: left;
 }
-.link-colour{
+.link-colour {
   color: #089e74;
 }
+/*changes my mahi jain*/
+.top-container {
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+
+.navbar- {
+  padding-left: 0%;
+  color: #f74700;
+}
+
+.contri {
+  padding-left: 920px;
+  color: #677662;
+}
+
+.navbar-:hover {
+  color: #677662;
+}
+
+.contri:hover {
+  color: #f74700;
+}
+
+.lead {
+  padding-top: 70px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-section {
+  padding-top: 50px;
+}
+
+.contact {
+  color: black;
+}
+/* changes by mahi jain*? */
