@@ -215,6 +215,82 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Navigation Bar */
+.navigation__svg-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+@media (min-width: 600px) {
+  .navigation__svg-icon {
+    display: none;
+  }
+
+  .navigation {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 2rem;
+    background-color: #f4f0e1;
+    position: relative;
+  }
+
+  .navigation__link-events {
+    display: flex;
+    align-items: center;
+    color: #2b3531;
+  }
+
+  .navigation__link,
+  .navigation__link-events {
+    padding: 0 1rem;
+    color: #2b3531;
+    font-size: 19px;
+  }
+
+  .navigation__ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: -3.5rem;
+    left: 35.2rem;
+    background-color: rgba(168, 135, 113);
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #f4f0e1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .navigation__ul-li {
+    padding: 0.5rem 1rem;
+  }
+
+  .navigation__link:hover {
+    color: #f74700;
+  }
+
+  .navigation__ul-li:hover {
+    background-color: #f74700;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .navigation__link-events:hover {
+    color: #2b3531;
+  }
+
+  .navigation__link-events:hover .navigation__ul {
+    display: block;
+  }
+}
+
 #icon {
   width: 30px;
   cursor: pointer;
@@ -259,7 +335,6 @@ ul {
 }
 /*changes my mahi jain*/
 .top-container {
-  padding-top: 160px;
   padding-bottom: 140px;
 }
 

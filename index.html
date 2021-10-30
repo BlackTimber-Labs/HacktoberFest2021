@@ -23,7 +23,14 @@
     <script src="https://kit.fontawesome.com/0d2eb8f025.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </head>
 
@@ -60,6 +67,22 @@
             </div>
         </div>
       </nav>
+
+    <!-- Navigation Bar -->
+    <navigation class="navigation">
+        <a href="#" class="navigation__link">Home</a> 
+        <a href="#" class="navigation__link">Resources</a>
+        <a href="#" class="navigation__link-events">Events<ion-icon name="chevron-down-outline"></ion-icon>
+         <ul class="navigation__ul">
+            <li class="navigation__ul-li">All Events</li>
+            <li class="navigation__ul-li">Event Organizer Kit</li>
+        </ul>
+        </a>
+        <a href="#" class="navigation__link">Giving</a>
+        <a href="#" class="navigation__link">FAQ</a>
+        <a href="#" class="navigation__link">Advisory Council</a>
+    </navigation>
+
     <header class="top-container">
         <a href="https://hacktoberfest.digitalocean.com/" target="_blank" rel="noopener" ><img src="assets/img/hfp.png"></a>
     </header>
