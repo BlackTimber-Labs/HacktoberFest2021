@@ -66,7 +66,8 @@ hr {
     margin: 3%;
     padding: 3%;
     transition: color .2s, font-size .2s, transform 2s;
-    width: 20vw;
+    width: 25vw;
+    height: 15vw;
 }
 
 .div-contact:hover {
@@ -77,6 +78,11 @@ hr {
 .div-contact-main {
     font-weight: bold;
     text-align: center;
+}
+
+.div-display {
+    display: flex;
+    justify-content: space-around;
 }
 
 .div-details {
@@ -99,11 +105,12 @@ hr {
     border-radius: 20px;
     margin: 7% 0 5% 20%;
     padding: 3%;
+    font-size: small;
     transition: color .2s, font-size .2s, transform 2s;
 }
 
 .div-section-one:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
     transition: color .2s, font-size .2s, transform 2s;
 }
 
@@ -112,11 +119,12 @@ hr {
     border-radius: 20px;
     margin: 7% 20% 5% 0;
     padding: 3%;
+    font-size: small;
     transition: color .2s, font-size .2s, transform 2s;
 }
 
 .div-section-two:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
     transition: color .2s, font-size .2s, transform 2s;
 }
 
@@ -161,14 +169,15 @@ hr {
 }
 
 .navbar {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
     padding-top: 0;
 }
 
 .navbar-nav {
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .para-main-contact {
